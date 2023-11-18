@@ -1,4 +1,5 @@
 import java.text.NumberFormat;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -14,6 +15,7 @@ public class Main {
         //collect principal balance
         System.out.println("Enter principal:");
         double principal = scanner.nextDouble();
+
         //collect annual interest rate
         System.out.println("Enter annual interest rate:");
         float annualInterestRate = scanner.nextFloat();
